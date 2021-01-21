@@ -39,5 +39,19 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewsobottka/bal-pool-trader.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewsobottka/bal-pool-trader/issues"
+  },
+  "homepage": "https://github.com/andrewsobottka/bal-pool-trader#readme"
 }
