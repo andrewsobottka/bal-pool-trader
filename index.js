@@ -1,4 +1,11 @@
 
+// The priceMonitor function calls monitorPrice at the frequency set by POLLING_INTERVAL (e.g. every 4 seconds)
+// The monitorPrice function will
+//  1. Determine if additional approval is needed for ERC20 token
+//      Only If more approval is needed will approval request be submitted
+//  2. Check Price
+//  3. Call tokenExchange function -- excutes balancers swapExactAmountIn 
+//  4. Call walletBalance function
 
 require('dotenv').config()
 const fs = require('fs')
